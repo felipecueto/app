@@ -13,12 +13,23 @@ namespace app2
 
             Console.WriteLine("Hello World!");
 
+            persona felipe = new persona();
+            felipe.correr();
+            
+ 
 
 
        }
     }
     class persona
-    {
 
+    {
+        public string name;
+        public int age;
+
+        public  void correr()
+        {
+            Console.WriteLine("yo corro" );
+        }
     }
 }
